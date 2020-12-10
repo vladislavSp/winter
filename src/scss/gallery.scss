@@ -1,0 +1,25 @@
+.gallery__title {
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  margin-bottom: 5.8125rem;
+
+  font-size: 2.625rem;
+  font-weight: 900;
+  line-height: 1.26;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  border-bottom: 0.625rem solid #2D63B9;
+}
+
+.gallery__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.gallery__slide {
+  width: 19.375rem;
+
+  &--active {
+    transform: scale(1.45);
+  }
+}

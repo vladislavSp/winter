@@ -1,0 +1,63 @@
+.begin {
+  color: white;
+}
+
+.begin__city {
+  display: block;
+  margin-bottom: 0.3125rem;
+  font-size: 2.375rem;
+  line-height: 1.23;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.begin__date {
+  display: block;
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.begin__place {
+  font-size: 2.375rem;
+  line-height: 1.23;
+  letter-spacing: -0.02em;
+  margin-bottom: 2.625rem;
+}
+
+.begin__btn {
+  margin-bottom: 1.875rem;
+}
+
+.begin__hashtag {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.begin__list {
+  display: flex;
+  max-width: 18.75rem;
+  width: 100%;
+}
+
+.begin__item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  & a {
+    display: flex;
+  }
+}

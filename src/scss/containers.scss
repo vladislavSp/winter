@@ -1,0 +1,13 @@
+// #header
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  &--big {
+    width: 82.5rem;
+  }
+
+  &--small {
+    width: 70.5rem;
+  }
+}

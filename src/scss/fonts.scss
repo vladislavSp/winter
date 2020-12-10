@@ -1,0 +1,42 @@
+/* *************************************** */
+/* DIN Pro FONT */
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: local('DIN Pro Black'),
+    url('../assets/fonts/din_pro_black.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/fonts/din_pro_black.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../assets/fonts/din_pro_black.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: local('DIN Pro Bold'),
+    url('../assets/fonts/din_pro_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/fonts/din_pro_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../assets/fonts/din_pro_bold.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: local('DIN Pro'),
+    url('../assets/fonts/din_pro.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/fonts/din_pro.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../assets/fonts/din_pro.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Pro Medium';
+  src: local('DIN Pro Medium'),
+    url('../assets/fonts/din_pro_medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../assets/fonts/din_pro_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../assets/fonts/din_pro_medium.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: 400;
+    font-style: normal;
+}

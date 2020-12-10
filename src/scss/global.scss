@@ -1,0 +1,96 @@
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+* {
+  box-sizing: border-box;
+
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DIN Pro', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #283954;
+  background-color: white;
+}
+
+
+input {
+    border-radius:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+picture {
+  font-size: 0;
+  line-height: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.colorized-text {
+  color: #EF8A52;
+}
+
+.color-text--blue {
+  color: #2D63B9;
+}
+
+.text--bold {
+  font-weight: 700;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 15.625rem;
+  width: 100%;
+  min-height: 3.125rem;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.285;
+  letter-spacing: 0.14em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #2D63B9;
+  color: white;
+}
