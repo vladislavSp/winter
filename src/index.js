@@ -20,8 +20,9 @@ import './scss/faq.scss';
 import './scss/nav.scss';
 import './scss/footer.scss';
 
+
 // js
-// import './js/app.js';
+import './js/slider.js';
 // import './js/random-image.js';
 // import './js/filters.js';
 // import './js/copy.js';

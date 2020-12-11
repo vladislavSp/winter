@@ -32,11 +32,11 @@
 }
 
 @font-face {
-  font-family: 'DIN Pro Medium';
+  font-family: 'DIN Pro';
   src: local('DIN Pro Medium'),
     url('../assets/fonts/din_pro_medium.woff2') format('woff2'), /* Super Modern Browsers */
     url('../assets/fonts/din_pro_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
     url('../assets/fonts/din_pro_medium.ttf') format('truetype'); /* Safari, Android, iOS */
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }

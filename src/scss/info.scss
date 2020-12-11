@@ -42,7 +42,7 @@
     margin-right: 0;
   }
 
-  &:nth-child(5n) {
+  &:nth-child(5n), &:last-child {
     margin-right: 0;
   }
 }

@@ -1,4 +1,4 @@
-@import '../scss/mixin.scss';
+@import './mixin.scss';
 
 .desc {
   margin-top: 12.1875rem;
@@ -14,10 +14,48 @@
 }
 
 .desc__video {
-  width: 645px;
-  min-height: 358px;
-  border: 2px solid rebeccapurple;
+  position: relative;
+  display: flex;
+  width: 40.3125rem;
+  height: 22.375rem;
+  box-sizing: content-box;
+  border: 0.25rem solid #2D63B9;
   margin-bottom: 2.5rem;
+  filter: drop-shadow(0rem 0rem 1rem rgba(0, 0, 0, 0.65));
+
+  & video {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+}
+
+.desc__video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 5.625rem;
+  height: 5.625rem;
+  padding: 0;
+  background-color: white;
+  border-radius: 50%;
+  border: 0.1875rem solid #2D63B9;
+  cursor: pointer;
+
+  &::after {
+    @include pseudo;
+
+    width: 1.1875rem;
+    height: 1.75rem;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-image: url('../assets/images/svg/play.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 .desc__text-wrap {
