@@ -63,3 +63,17 @@
     text-decoration: underline;
   }
 }
+
+@media (max-width: 767px) {
+  .footer__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .footer__first {
+    margin-top: 1.5rem;
+    order: 1;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+}

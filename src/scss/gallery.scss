@@ -61,3 +61,30 @@
   color: white;
   text-align: center;
 }
+
+@media (max-width: 767px) {
+  .gallery__title {
+    font-size: 1.5rem;
+    border-width: 0.25rem;
+    max-width: 11rem;
+  }
+
+  .gallery__container {
+    padding: 1rem 0;
+  }
+
+  .gallery__wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallery__slide {
+    width: 100%;
+
+    &:hover {
+      transform: scale(1);
+      filter: none;
+      z-index: auto;
+    }
+  }
+}

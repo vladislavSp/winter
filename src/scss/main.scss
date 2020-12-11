@@ -36,3 +36,16 @@
     center -8.25rem,
     center -7.8125rem;
 }
+
+@media (max-width: 767px) {
+  .mainback {
+    background-image: none;
+  }
+
+  .mainback--sec {
+    padding-top: 0;
+    background-image: url('../assets/images/mob/mountain-mob-min.png');
+    background-position: center 630px;
+    background-size: auto;
+  }
+}

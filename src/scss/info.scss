@@ -64,3 +64,58 @@
 .info__link {
   margin: 0 auto;
 }
+
+
+@media (max-width: 767px) {
+  .info {
+    margin-bottom: 2.5rem;
+  }
+
+  .info__title {
+    font-size: 1.5rem;
+    color: #283954;
+    border-bottom: none;
+    margin-bottom: 1.875rem;
+    padding-bottom: 0.625rem;
+    position: relative;
+    max-width: 16rem;
+    border-width: 0.25rem;
+
+    &::after {
+      @include pseudo;
+
+      top: auto;
+      bottom: 0;
+      width: 122px;
+      height: 0.25rem;
+      background-color: #2D63B9;
+    }
+  }
+
+  .info__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .info__item {
+    width: 131px;
+    min-height: 115px;
+    margin: 0;
+  }
+
+  .info__text {
+    font-size: 0.75rem;
+  }
+
+  .info__image {
+    width: 2.5rem;
+  }
+
+  .info__link {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    margin-top: 1.25rem;
+  }
+}

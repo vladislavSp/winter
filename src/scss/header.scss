@@ -1,3 +1,18 @@
 .header {
   padding: 5.875rem 0 6.75rem;
 }
+
+
+@media (max-width: 767px) {
+  .header {
+    min-height: 28rem;
+    padding: 1rem 1rem 10rem;
+    background-image: url('../assets/images/mob/main-mob-min.jpg');
+    background-position: 0 0;
+    background-size: cover;
+  }
+
+  .header__logo img {
+    width: 2.5rem;
+  }
+}

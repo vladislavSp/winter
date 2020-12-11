@@ -52,3 +52,34 @@
 .corp__link {
   margin-top: 2.25rem;
 }
+
+
+@media (max-width: 767px) {
+  .corp {
+    padding-top: 15.625rem;
+    padding-bottom: 2.5rem;
+    background-image: url('../assets/images/mob/corp-mob-back-min.png');
+    background-repeat: no-repeat;
+    background-position: right 0;
+  }
+
+  .corp__wrapper {
+    display: block;
+  }
+
+  .corp__title {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 0;
+    margin-bottom: 1.375rem;
+
+    &::after {
+      width: 8.75rem;
+      height: 0.25rem;
+    }
+  }
+
+  .corp__link {
+    max-width: none;
+  }
+}

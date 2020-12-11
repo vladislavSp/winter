@@ -15,3 +15,15 @@
     width: 70.5rem;
   }
 }
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+
+    &--fullScreen, &--big, &--small {
+      width: 20rem;
+      padding: 0 1.25rem;
+    }
+  }
+}

@@ -70,3 +70,45 @@
 .nav__map {
   border-radius: 0.625rem;
 }
+
+
+@media (max-width: 767px) {
+  .nav {
+    background-image: url('../assets/images/mob/foot-back1x-min.png');
+    background-position: left bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 2.625rem;
+  }
+  .nav__title {
+    font-size: 1.5rem;
+    border-width: 0.25rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .nav__list {
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+
+  .nav__item {
+    padding: 1rem;
+
+    &:not(:last-of-type) {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  .nav__image {
+    margin-right: 1rem;
+    width: 3rem;
+  }
+
+  .nav__subtitle {
+    font-size: 1rem;
+  }
+
+  .nav__btn {
+    font-size: 0.75rem;
+  }
+}
