@@ -5,3 +5,12 @@
   top: 0;
   left: 0;
 }
+
+@mixin title42_53 {
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.26;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}

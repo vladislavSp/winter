@@ -1,19 +1,12 @@
+@import '../scss/mixin.scss';
+
 .desc {
   margin-top: 12.1875rem;
   margin-bottom: 5.125rem;
-  // background-image: url('../assets/images/desc-back1x-min.png');
-  // background-repeat: no-repeat;
-  // background-size: auto;
-  // background-position: right bottom;
-  // retina
 }
 
 .desc__title {
-  font-size: 2.625rem;
-  font-weight: 900;
-  line-height: 1.26;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
+  @include title42_53;
   max-width: 34rem;
   padding-bottom: 0.75rem;
   margin-bottom: 3.75rem;

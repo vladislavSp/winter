@@ -1,0 +1,112 @@
+.format {
+  margin-bottom: 4.6875rem;
+}
+
+.format__title {
+  max-width: 50rem;
+  font-size: 7.5rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 3.75rem rgba(0, 0, 0, 0.65);
+}
+
+.format__titleWrap {
+  margin-bottom: 13.3125rem;
+}
+
+.format__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.format__item {
+  filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+}
+
+.format__body {
+  padding: 1.5rem 1.25rem 3.125rem 1.875rem;
+  background-color: white;
+
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: -0.02em;
+
+}
+
+.format__header {
+  padding: 1.875rem;
+  padding-bottom: 0;
+  width: 100%;
+  border-top-right-radius: 4.375rem;
+  border-top-left-radius: 0.3125rem;
+  min-height: 21.0625rem;
+  background-image: url('../assets/images/format/1-1x-min.png'), linear-gradient(180deg, #2D63B9 22.45%, #FFFFFF 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center 7.25rem, center center;
+
+  &--sec {
+    background-image: url('../assets/images/format/2-1x-min.png'), linear-gradient(180deg, #2D63B9 22.45%, #FFFFFF 100%);
+  }
+
+  &--third {
+    background-image: url('../assets/images/format/3-1x-min.png'), linear-gradient(180deg, #2D63B9 22.45%, #FFFFFF 100%);
+  }
+}
+
+.format__item-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.46;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.format__sub {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.format__costWrap {
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+  border-top: 2px solid #2D63B9;
+}
+
+.format__cost-text {
+  margin-bottom: 0.625rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 2;
+  display: block;
+}
+
+.format__cost {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #E48149;
+}
+
+.format__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: 0.14em;
+
+  width: 100%;
+  min-height: 5.125rem;
+  background-color: #2D63B9;
+  color: white;
+  text-transform: uppercase;
+  border-bottom-left-radius: 2.5rem;
+
+}

@@ -1,0 +1,54 @@
+@import '../scss/mixin.scss';
+
+.corp {
+  padding-bottom: 48rem;
+}
+
+.corp__title {
+  font-size: 4.75rem;
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  max-width: 40rem;
+  padding-bottom: 2rem;
+  position: relative;
+  margin-right: 4rem;
+
+  &::after {
+    @include pseudo;
+
+    width: 21.375rem;
+    height: 0.625rem;
+    bottom: 0;
+    top: auto;
+    background-color: #2D63B9;
+  }
+}
+
+.corp__wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.corp__req {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.28;
+  max-width: 31rem;
+
+  & p {
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.corp__mail-link {
+  font-weight: 700;
+  color: black;
+}
+
+.corp__link {
+  margin-top: 2.25rem;
+}

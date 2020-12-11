@@ -1,0 +1,66 @@
+@import '../scss/mixin.scss';
+
+.info {
+  margin-bottom: 6.25rem;
+}
+
+.info__title {
+  @include title42_53;
+
+  display: inline-block;
+  padding-bottom: 1.125rem;
+  border-bottom: 0.625rem solid #2D63B9;
+  margin-bottom: 3.75rem;
+  color: white;
+}
+
+.info__list {
+  width: 100%;
+  display: flex;
+  // grid-template-columns: repeat(5, 1fr);
+  // gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.info__item {
+  width: 15.3125rem;
+  min-height: 13.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #2D63B9;
+  border-top-left-radius: 3.125rem;
+  margin-right: 1.4375rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+  &:nth-child(5n) {
+    margin-right: 0;
+  }
+
+  &:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+
+// .info__image {
+
+// }
+
+.info__text {
+  display: inline-block;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.555;
+  letter-spacing: -0.02em;
+   max-width: 12rem;
+}
+
+.info__link {
+  margin: 0 auto;
+}

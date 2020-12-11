@@ -11,7 +11,14 @@ import './scss/begin.scss';
 import './scss/desc.scss';
 import './scss/stages.scss';
 import './scss/gallery.scss';
-
+import './scss/format.scss';
+import './scss/info.scss';
+import './scss/map.scss';
+import './scss/corp.scss';
+import './scss/partners.scss';
+import './scss/faq.scss';
+import './scss/nav.scss';
+import './scss/footer.scss';
 
 // js
 // import './js/app.js';

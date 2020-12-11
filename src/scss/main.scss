@@ -1,18 +1,36 @@
 .mainback {
   background-image:
     url('../assets/images/cloud-1-min.png'),
+    url('../assets/images/back/friend-ice-back-min.png'),
     url('../assets/images/ice-back-min.png'),
     url('../assets/images/mainbg1x-min.png');
-  background-repeat:
-    no-repeat,
-    no-repeat,
-    no-repeat;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: auto, auto, auto, auto;
   background-position:
     center 1150px,
+    center -11.5rem,
     center 1400px,
     center top;
-  background-size:
-    auto,
-    auto,
-    auto;
+}
+
+.mainback--sec {
+  padding-top: 7.8125rem;
+  background-image:
+    url('../assets/images/back/footer-back-min.png'),
+    url('../assets/images/back/partner-ice-back-min.png'),
+    url('../assets/images/back/corp-back-min.png'),
+    url('../assets/images/back/map-ice-back-min.png'),
+    url('../assets/images/back/mountain1x-min.png'),
+    url('../assets/images/format/cloud-2-1x-min.png'),
+    url('../assets/images/format/format-back1x-min.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position:
+    center bottom,
+    center 256rem,
+    center 215rem,
+    center -253rem,
+    center 10rem,
+    center -8.25rem,
+    center -7.8125rem;
 }
