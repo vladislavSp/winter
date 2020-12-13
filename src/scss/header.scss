@@ -5,11 +5,12 @@
 
 @media (max-width: 767px) {
   .header {
-    min-height: 28rem;
-    padding: 1rem 1rem 10rem;
-    background-image: url('../assets/images/mob/main-mob-min.jpg');
-    background-position: 0 0;
+    min-height: 32rem;
+    padding: 1rem;
+    background-image: url('../assets/images/cloud-1-min.png'), url('../assets/images/mainbg1x-min.png');
+    background-position: center 17.75rem ,center 0;
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .header__logo img {

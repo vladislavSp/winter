@@ -8,7 +8,7 @@
   @include title42_53;
 
   display: inline-block;
-  padding-bottom: 0.625rem;
+  padding-bottom: 0.875rem;
   border-bottom: 0.625rem solid #2D63B9;
   margin-bottom: 4.1875rem;
 }
@@ -87,11 +87,11 @@
 
 @media (max-width: 767px) {
   .partners {
-    margin-bottom: 4.25rem;
+    margin-bottom: 6.25rem;
   }
 
   .partners__title {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
     margin-bottom: 3rem;
     max-width: 10rem;
     border-width: 0.25rem;

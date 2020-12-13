@@ -56,11 +56,8 @@
 
 @media (max-width: 767px) {
   .corp {
-    padding-top: 15.625rem;
-    padding-bottom: 2.5rem;
-    background-image: url('../assets/images/mob/corp-mob-back-min.png');
-    background-repeat: no-repeat;
-    background-position: right 0;
+    padding-bottom: 0;
+    margin-bottom: 2.625rem;
   }
 
   .corp__wrapper {
@@ -68,18 +65,25 @@
   }
 
   .corp__title {
-    font-size: 1.5rem;
-    padding-bottom: 0.5rem;
+    display: inline-block;
+    font-size: 1.625rem;
+    padding-bottom: 0.875rem;
     margin-right: 0;
     margin-bottom: 1.375rem;
 
     &::after {
-      width: 8.75rem;
+      width: 100%;
       height: 0.25rem;
     }
   }
 
+  .corp__req {
+    font-size: 1rem;
+    max-width: none;
+  }
+
   .corp__link {
     max-width: none;
+    margin-top: 3.125rem;
   }
 }

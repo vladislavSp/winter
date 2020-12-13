@@ -72,11 +72,11 @@
   }
 
   .info__title {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
     color: #283954;
     border-bottom: none;
     margin-bottom: 1.875rem;
-    padding-bottom: 0.625rem;
+    padding-bottom: 0.875rem;
     position: relative;
     max-width: 16rem;
     border-width: 0.25rem;
@@ -99,8 +99,8 @@
   }
 
   .info__item {
-    width: 131px;
-    min-height: 115px;
+    width: auto;
+    min-height: 7.25rem;
     margin: 0;
   }
 

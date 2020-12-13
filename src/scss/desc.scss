@@ -7,6 +7,7 @@
 
 .desc__title {
   @include title42_53;
+  display: inline-block;
   max-width: 34rem;
   padding-bottom: 0.75rem;
   margin-bottom: 3.75rem;
@@ -137,33 +138,40 @@
 
 @media (max-width: 767px) {
   .desc {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
   }
 
   .desc__title {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    @include title26_33;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2.1875rem;
     border-width: 0.25rem;
+    max-width: 17.5rem;
   }
 
   .desc__video {
-    display: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.875rem;
   }
 
   .desc__text {
+    font-size: 1rem;
+    line-height: 1.8;
+
     &:not(:last-of-type) {
       margin-bottom: 1rem;
     }
   }
 
-  .desc__text-wrap {
-    padding-bottom: 10rem;
+  .desc__btn {
+    margin-top: 1.875rem;
   }
 
   .desc__image {
-    bottom: 0;
-    right: 1.25rem;
+    position: static;
+    margin-bottom: 1.25rem;
   }
 
   .desc__list {
@@ -174,21 +182,30 @@
     padding-top: 0rem;
     display: flex;
     flex-direction: column;
-  }
 
-  .desc__item:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-
-  .desc__textitem:first-of-type {
-    margin-right: 0;
+    &:not(:last-child) {
+      margin-bottom: 1.875rem;
+    }
   }
 
   .desc__item-image {
-    display: none;
+    position: static;
+    order: 1;
   }
 
   .desc__textitem {
-    margin-bottom: 1rem;
+    width: 100%;
+    padding-top: 1.5rem;
+    border-width: 0.3125rem;
+    font-size: 1rem;
+    margin-bottom: 1.875rem;
+
+    &:first-of-type {
+      margin-right: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }

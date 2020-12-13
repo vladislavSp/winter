@@ -65,12 +65,17 @@
 @media (max-width: 767px) {
   .gallery__title {
     font-size: 1.5rem;
+    padding-bottom: 0.875rem;
     border-width: 0.25rem;
     max-width: 11rem;
   }
 
+  .gallery__titleWrap {
+    margin-bottom: 2rem;
+  }
+
   .gallery__container {
-    padding: 1rem 0;
+    padding: 0;
   }
 
   .gallery__wrapper {

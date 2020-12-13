@@ -80,8 +80,10 @@
     background-repeat: no-repeat;
     padding-bottom: 2.625rem;
   }
+
   .nav__title {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
+    padding-bottom: 0.875rem;
     border-width: 0.25rem;
     margin-bottom: 1.875rem;
   }
@@ -105,10 +107,24 @@
   }
 
   .nav__subtitle {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 
   .nav__btn {
     font-size: 0.75rem;
+  }
+
+  .nav__map {
+    display: none;
+  }
+
+  .nav__picture {
+    border-radius: 1rem;
+    background-image: url('../assets/images/nav/map1x-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 400px;
   }
 }
