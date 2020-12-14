@@ -16,6 +16,48 @@
   }
 }
 
+@media (max-width: 1440px) and (min-width: 992px) {
+ .container {
+    &--big {
+      width: 70rem;
+    }
+
+    &--small {
+      width: 60rem;
+    }
+
+    &--fullScreen {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .container {
+    &--big {
+      width: 60rem;
+    }
+
+    &--small {
+      width: 50rem;
+    }
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .container {
+    padding: 0 1.25rem;
+
+    &--big, &--small {
+      width: 45rem;
+    }
+
+    &--fullScreen {
+      width: 100%;
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .container {
     width: 100%;

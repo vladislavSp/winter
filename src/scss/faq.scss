@@ -53,6 +53,13 @@
   cursor: pointer;
 }
 
+@media (max-width: 1440px) {
+  .faq {
+    margin-bottom: 6rem;
+  }
+}
+
+
 @media (max-width: 767px) {
   .faq {
     margin-bottom: 2.5rem;

@@ -2,15 +2,24 @@
   padding: 5.875rem 0 6.75rem;
 }
 
+@media (max-width: 991px) {
+  .header {
+    padding: 2rem 1rem;
+    background-image: url('../assets/images/cloud-1-min.png'), url('../assets/images/mainbg1x-min.png');
+    background-size: cover;
+    background-position: center 17.75rem ,center 0;
+    background-repeat: no-repeat;
+    min-height: 32rem;
+
+    & img {
+      width: 3.125rem;
+    }
+  }
+}
 
 @media (max-width: 767px) {
   .header {
-    min-height: 32rem;
     padding: 1rem;
-    background-image: url('../assets/images/cloud-1-min.png'), url('../assets/images/mainbg1x-min.png');
-    background-position: center 17.75rem ,center 0;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .header__logo img {

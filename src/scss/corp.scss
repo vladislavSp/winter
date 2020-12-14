@@ -53,6 +53,37 @@
   margin-top: 2.25rem;
 }
 
+.corp__image {
+  display: none;
+}
+
+@media (max-width: 1440px) and (min-width: 992px) {
+  .corp__title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .corp {
+    padding-bottom: 32em;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .corp {
+    padding-bottom: 25rem;
+  }
+
+  .corp__title {
+    font-size: 3rem;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .corp__wrapper {
+    display: block;
+  }
+}
 
 @media (max-width: 767px) {
   .corp {

@@ -25,15 +25,8 @@
     margin-bottom: 7rem;
   }
 
-  &:nth-child(odd) {
-    & .stages__image {
-      top: -2rem;
-    }
-  }
-
   &:nth-child(even) {
     & .stages__image {
-      top: -10rem;
       left: -9rem;
     }
 
@@ -45,7 +38,8 @@
 }
 
 .stages__image {
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   right: 0;
   position: absolute;
   z-index: -1;
@@ -90,6 +84,66 @@
   color: #2D63B9;
 }
 
+@media (max-width: 1440px) and (min-width: 992px) {
+  .stages {
+    margin-bottom: 6.25rem;
+  }
+
+  .stages__title {
+    font-size: 3.875rem;
+    margin-bottom: 4rem;
+  }
+
+  .stages__subtitle {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .stages {
+    margin-bottom: 4.25rem;
+  }
+
+  .stages__title {
+    font-size: 3.25rem;
+  }
+
+  .stages__subtitle {
+    font-size: 2.75rem;
+  }
+
+  .stages__image {
+    max-width: 40rem;
+  }
+
+  .stages__item {
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .stages {
+    margin-bottom: 4rem;
+  }
+
+  .stages__title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stages__subtitle {
+    font-size: 2.25rem;
+  }
+
+  .stages__item {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .stages {
     margin-bottom: 3.75rem;
@@ -114,6 +168,7 @@
 
   .stages__image {
     position: static;
+    transform: translateY(0);
   }
 
   .stages__subtitle {

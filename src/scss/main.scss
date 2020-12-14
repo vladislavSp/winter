@@ -37,6 +37,55 @@
     center -7.8125rem;
 }
 
+
+@media (max-width: 1440px) and (min-width: 992px) {
+  .mainback--sec {
+    background-position:
+      center bottom,
+      center 256rem,
+      center 200rem,
+      center -253rem,
+      center 10rem,
+      center -8.25rem,
+      center -7.8125rem;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .mainback--sec {
+    background-position:
+      center bottom,
+      center 256rem,
+      center 189rem,
+      center -253rem,
+      center 10rem,
+      center -8.25rem,
+      center -7.8125rem;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .mainback {
+    background-image: none;
+  }
+
+  .mainback--sec {
+    padding-top: 5rem;
+      background-image:
+        url('../assets/images/back/footer-back-min.png'),
+        url('../assets/images/back/corp-back-min.png'),
+        url('../assets/images/back/mountain1x-min.png'),
+        url('../assets/images/format/format-back1x-min.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position:
+        center bottom,
+        center 308rem,
+        center 35rem,
+        center -3.8125rem;
+  }
+}
+
 @media (max-width: 767px) {
   .mainback {
     background-image: none;

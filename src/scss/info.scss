@@ -65,6 +65,48 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1440px) and (min-width: 992px) {
+  .info__list {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .info__item {
+    margin: 0;
+    width: auto;
+  }
+
+  .info__link {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .info {
+    margin-bottom: 4rem;
+  }
+
+  .info__title {
+    font-size: 2rem;
+    color: #283954;
+  }
+
+  .info__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .info__item {
+    margin: 0;
+    width: auto;
+  }
+
+  .info__link {
+    margin-top: 2rem;
+  }
+}
 
 @media (max-width: 767px) {
   .info {

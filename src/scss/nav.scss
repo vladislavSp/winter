@@ -71,6 +71,43 @@
   border-radius: 0.625rem;
 }
 
+@media (max-width: 1199px) and (min-width: 992px) {
+  .nav {
+    padding-bottom: 5rem;
+  }
+
+  .nav__btn {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav {
+    padding-bottom: 4rem;
+  }
+
+  .nav__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .nav__list {
+    display: block;
+  }
+
+  .nav__item {
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+
+    &:last-of-type {
+      margin-bottom: 0rem;
+    }
+
+    &--navig {
+      margin-bottom: 4.625rem;
+    }
+  }
+}
 
 @media (max-width: 767px) {
   .nav {
@@ -89,16 +126,7 @@
   }
 
   .nav__list {
-    display: block;
     margin-bottom: 2.5rem;
-  }
-
-  .nav__item {
-    padding: 1rem;
-
-    &:not(:last-of-type) {
-      margin-bottom: 1.25rem;
-    }
   }
 
   .nav__image {
