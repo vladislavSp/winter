@@ -58,8 +58,8 @@
     <section class="desc container container--small">
       <h2 class="desc__title">Настоящая <span class="colorized-text">зима</span> начинается с гонки</h2>
       <div class="desc__video">
-        <video poster="assets/images/video-preview.jpg" src="assets/video/none.mp4"></video>
-        <button class="desc__video-btn">
+        <video data-video="video" poster="assets/images/video-preview.jpg" src="assets/video/ggwinter.mp4"></video>
+        <button class="desc__video-btn" data-video="btn">
           <span class="visually-hidden">Включить видео</span>
         </button>
       </div>
@@ -67,7 +67,7 @@
         <p class="desc__text desc__text--bold">Будоражащий забег с препятствиями по зимней трассе не даст тебе замерзнуть!</p>
         <p class="desc__text">Рукоходы, переправы, канаты, рампа и другие испытания покорятся каждому. Бежишь один или с командой — ты точно захочешь повторить это морозное развлечение.</p>
         <p class="desc__text desc__text--bold">Это твой шанс испытать на себе экшн и эффектное приключение. Открой себя с новой стороны. Узнай, на что ты на самом деле способен.</p>
-        <a class="desc__btn btn" href="#formats">Принять участие</a>
+        <a class="desc__btn btn" href="https://heroleague.ru/?buy=461395" target="_blank" rel="noopener">Принять участие</a>
         <img class="desc__image" src="assets/images/desc-back1x-min.png" alt="Гонка Героев Зима">
       </div>
 
@@ -76,15 +76,17 @@
         <li class="desc__item">
           <img class="desc__item-image" src="assets/images/desc-back2-1x-min.png" alt="Участник">
           <p class="desc__textitem"><span class="color-text--blue text--bold">Гонка Героев Зима</span> — это возможность окунуться в новое спортивное приключение. Зови друзей, чтобы нырнуть с головой в веселые спортивные состязания, после которых ты будешь уверен в своих силах на все 100!</p>
-          <p class="desc__textitem">Тебя ждет дерзкое развлекательное состязание, на котором ты повеселишься так, как никогда раньше. <span class="text--bold">Думаешь, это сложно?</span> <span class="text--bold color-text--blue">Нет!</span> Конечно, тебе придется немного постараться, но у тебя получится преодолеть все морозные испытания. У холода просто нет шансов!</p>
+          <img class="desc__mob-image" src="assets/images/mob/desc-mob1.png" alt="Участник 2">
+          <p class="desc__textitem">Тебя ждет дерзкое развлекательное соревнование, на котором ты повеселишься так, как никогда раньше. <span class="text--bold">Думаешь, это сложно?</span> <span class="text--bold color-text--blue">Нет!</span> Конечно, тебе придется немного постараться, но у тебя получится преодолеть все морозные испытания. У холода просто нет шансов!</p>
         </li>
         <li class="desc__item">
           <p class="desc__textitem">Каждое препятствие продумано до мелочей и создано так, что любой сможет его преодолеть. Неважно, какой у тебя рост, возраст, спортивный опыт или уровень подготовки. <span class="color-text--blue text--bold">Ты&nbsp;пройдешь Гонку Героев Зима и&nbsp;получишь заслуженную награду на&nbsp;финише.</span></p>
+          <img class="desc__mob-image" src="assets/images/mob/desc-mob2.png" alt="Участник 3">
           <p class="desc__textitem"><span class="color-text--blue text--bold">Ты не будешь один.</span> Рядом с тобой всегда надежная команда друзей, инструкторов и просто единомышленников. На Гонке Героев Зима ты встретишь людей, на которых можно положиться. Здесь каждый заряжает друг друга невероятными эмоциями и поддержкой.</p>
-          <picture class="desc__picture">
+          <img class="desc__item-image desc__item-image--sec" src="assets/images/desc-back3-1x-min.png" alt="участник 4">
+          <!-- <picture class="desc__picture">
             <source media="(max-width: 991px)" srcset="assets/images/mob/desc-img1x-mob.png 1x, assets/images/mob/desc-img2x-mob.png 2x">
-            <img class="desc__item-image desc__item-image--sec" src="assets/images/desc-back3-1x-min.png" alt="">
-          </picture>
+          </picture> -->
         </li>
       </ul>
     </section>
@@ -107,7 +109,7 @@
           <div class="stages__item-wrap">
             <h3 class="stages__subtitle">Любитель</h3>
             <b class="stages__slogan">Время пробовать что-то новое!</b>
-            <p class="stages__text">Ты привык к физическим нагрузкам, но <span class="text--bold">хочешь проверить себя</span>? Тебе на Гонку Героев Зима!<br><br> Твои спортивные достижения должны быть замечены. На трассе Гонки Героев Зима, ты узнаешь, на что способен..</p>
+            <p class="stages__text">Ты привык к физическим нагрузкам, но <span class="text--bold">хочешь проверить себя</span>? Тебе на Гонку Героев Зима!<br><br> Твои спортивные достижения должны быть замечены. На трассе Гонки Героев Зима, ты узнаешь, на что способен.</p>
             <a class="stages__btn" href="#formats">Попробовать</a>
           </div>
         </li>
@@ -127,7 +129,7 @@
       <div class="container container--small gallery__titleWrap">
         <h2 class="gallery__title">Для тебя и твоих друзей</h2>
       </div>
-      <div class="container container--fullScreen">
+      <div class="gallery__rel container container--fullScreen">
         <div class="gallery__container">
           <ul class="gallery__wrapper">
             <li class="gallery__slide">
@@ -146,6 +148,10 @@
               <img src="assets/images/gallery/slide2-1x-min.jpg" alt="Slide 5">
             </li>
           </ul>
+        </div>
+        <div class="gallery__controls">
+          <button class="gallery__btn gallery__btn--prev"></button>
+          <button class="gallery__btn gallery__btn--next"></button>
         </div>
       </div>
     </section>
@@ -193,7 +199,7 @@
           </header>
           <div class="format__body">
             <b class="format__sub">Приключение для всех и каждого — массовый старт.</b>
-            <p class="format__text">Беги со&nbsp;всеми, беги лучше всех! Ты&nbsp;бежишь со&nbsp;всеми, но&nbsp;на&nbsp;свой собственный результат. Здесь только ты&nbsp;и&nbsp;твоя цель пересечь финиш первым.</p>
+            <p class="format__text">Беги со&nbsp;всеми, беги лучше всех! Ты&nbsp;бежишь на&nbsp;свой собственный результат. Здесь только ты&nbsp;и&nbsp;твоя цель пересечь финиш первым.</p>
             <div class="format__costWrap">
               <span class="format__cost-text">стоимость:</span>
               <span class="format__cost">3 200 руб</span>
@@ -240,7 +246,7 @@
           <p class="info__text">Фотосьемка на трассе</p>
         </li>
       </ul>
-      <a class="info__link btn" href="#formats">Бежать</a>
+      <a class="info__link btn" href="https://heroleague.ru/?buy=461395" target="_blank" rel="noopener">Бежать</a>
     </section>
 
     <section class="map container container--small">
@@ -275,7 +281,7 @@
         <img class="corp__image" src="assets/images/back/corp-back-mob.png" alt="Corp">
         <h2 class="corp__title">Корпоративные участники</h2>
         <div class="corp__req">
-          <p>У тебя уже есть команда, с которой ты готов принять вызов Гонки Героев Зима? Напиши на корпоративное участие по почте <a class="corp__mail-link" href="mailto:corp@heroleague.ru">corp@heroleague.ru</a>. Вместе вы сможете представить свою компанию или устроить соревнования между собой.</p>
+          <p>У тебя уже есть команда, с которой ты готов принять вызов Гонки Героев Зима? Оставь заявку на корпоративное участие по почте <a class="corp__mail-link" href="mailto:corp@heroleague.ru">corp@heroleague.ru</a>. Вместе вы сможете представить свою компанию или устроить соревнования между собой.</p>
           <b>Оставь заявку, чтобы получить пропуск в морозное приключение для себя и своих коллег.</b>
           <a class="btn corp__link" target="_blank" rel="noopener" href="https://corp.heroleague.ru/?_ga=2.129141769.424743276.1607933460-605430988.1603435958&_gac=1.119793402.1606295300.CjwKCAiAnvj9BRA4EiwAuUMDf0WYaT09Hu_Ccfik5LStSqYoCPE_SZmVKKDWRCh2u5kcpmoRwyZ72hoCkn8QAvD_BwE">Оставить заявку</a>
         </div>
@@ -283,7 +289,7 @@
     </section>
 
     <section class="partners container container--big">
-      <h2 class="partners__title">Спонсоры и&nbsp;партнёры</h2>
+      <h2 class="partners__title">Спонсоры и&nbsp;партнеры</h2>
       <div class="partners__rel">
         <div class="partners__container">
           <ul class="partners__wrapper">
@@ -364,10 +370,9 @@
       <h2 class="nav__title">Как добраться</h2>
       <ul class="nav__list">
         <li class="nav__item">
-          <img class="nav__image" src="assets/images/nav/metro.svg" alt="Метро">
+          <img class="nav__image" src="assets/images/nav/metro.svg" alt="Полигон">
           <div class="nav__textWrap">
-            <b class="nav__subtitle">Метро</b>
-            <p>Станция метро "Воробьевы горы"</p>
+            <b class="nav__subtitle">Полигон "Алабино"</b>
           </div>
         </li>
         <li class="nav__item nav__item--navig">

@@ -23,6 +23,5 @@ import './scss/footer.scss';
 
 // js
 import './js/slider.js';
-// import './js/random-image.js';
-// import './js/filters.js';
-// import './js/copy.js';
+import './js/video.js';
+import './js/popup.js';

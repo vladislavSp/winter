@@ -44,6 +44,8 @@
   border-radius: 50%;
   border: 0.1875rem solid #2D63B9;
   cursor: pointer;
+  outline: none;
+  transition: transform 0.25s ease;
 
   &::after {
     @include pseudo;
@@ -56,6 +58,14 @@
     background-image: url('../assets/images/svg/play.svg');
     background-repeat: no-repeat;
     background-size: contain;
+  }
+
+  &:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+
+  &:active {
+    transform: translate(-50%, -50%) scale(0.95);
   }
 }
 
@@ -105,15 +115,21 @@
 
     & .desc__item-image {
       left: -4rem;
-      top: -6.25rem;
     }
   }
 
   &:nth-child(even) {
     & .desc__item-image {
       right: -7.5rem;
-      top: -18rem;
     }
+  }
+}
+.desc__item-image {
+  top: 50%;
+  transform: translateY(-50%);
+
+  &--sec {
+    width: 50rem;
   }
 }
 
@@ -136,18 +152,14 @@
   position: absolute;
 }
 
+.desc__mob-image {
+  display: none;
+}
+
 @media (max-width: 1440px) and (min-width: 1200px) {
   .desc__item {
-    &:nth-child(odd) {
-      & .desc__item-image {
-        top: -3rem;
-        // right: -5rem;
-      }
-    }
-
     &:nth-child(even) {
       & .desc__item-image {
-        top: -10rem;
         right: -3rem;
       }
     }
@@ -163,6 +175,11 @@
   }
 }
 
+@media (max-width: 1199px) {
+  .desc__item-image {
+    transform: translateY(0);
+  }
+}
 
 @media (max-width: 1199px) and (min-width: 992px) {
   .desc {
@@ -195,10 +212,6 @@
     order: 1;
     margin: 0 auto;
     width: 40rem;
-
-    &--sec {
-      display: none;
-    }
   }
 
   .desc__textitem {
@@ -229,6 +242,10 @@
     margin-bottom: 3rem;
   }
 
+  .desc__list {
+    padding-top: 0;
+  }
+
   .desc__image {
     position: static;
   }
@@ -249,11 +266,21 @@
 
   .desc__textitem {
     width: 100%;
+    margin-bottom: 1rem;
+
+    &:first-of-type {
+      margin-right: 0;
+    }
   }
 
   .desc__picture {
     display: flex;
     justify-content: center;
+  }
+
+  .desc__video-btn {
+    width: 4.625rem;
+    height: 4.625rem;
   }
 }
 
@@ -318,14 +345,14 @@
     padding-top: 1.5rem;
     border-width: 0.3125rem;
     font-size: 1rem;
-    margin-bottom: 1.875rem;
+    margin-bottom: 0;
 
     &:first-of-type {
       margin-right: 0;
     }
+  }
 
-    &:last-of-type {
-      margin-bottom: 0;
-    }
+  .desc__mob-image {
+    display: block;
   }
 }
