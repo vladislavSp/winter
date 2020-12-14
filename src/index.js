@@ -19,6 +19,7 @@ import './scss/partners.scss';
 import './scss/faq.scss';
 import './scss/nav.scss';
 import './scss/footer.scss';
+import './scss/popup.scss';
 
 
 // js
