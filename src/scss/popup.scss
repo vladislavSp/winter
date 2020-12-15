@@ -87,3 +87,10 @@
     transform: translate(-50%, -50%) rotate(-45deg);
   }
 }
+
+@media (max-width: 991px) {
+  .popup {
+    align-items: flex-start;
+    padding: 2rem 1.25rem;
+  }
+}
