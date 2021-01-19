@@ -14,6 +14,8 @@
     center 1400px,
     center top;
 }
+//     background-size: contain, contain, 100%, contain, contain;
+
 
 .mainback--sec {
   padding-top: 7.8125rem;
@@ -36,6 +38,7 @@
     center -8.25rem,
     center -7.8125rem;
 }
+//    background-size: contain, 100%, contain, contain, contain, contain, contain;
 
 
 @media (max-width: 1440px) and (min-width: 992px) {

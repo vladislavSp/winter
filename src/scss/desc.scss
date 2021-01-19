@@ -75,7 +75,7 @@
 
 .desc__image {
   bottom: -2rem;
-  right: -7rem;
+  right: -2rem;
   position: absolute;
 }
 
@@ -83,7 +83,7 @@
   font-size: 1.125rem;
   line-height: 1.55;
   letter-spacing: -0.02em;
-  max-width: 36rem;
+  max-width: 35rem;
 
   &:not(:last-of-type) {
     margin-bottom: 2rem;
@@ -120,7 +120,7 @@
 
   &:nth-child(even) {
     & .desc__item-image {
-      right: -7.5rem;
+      right: -6rem;
     }
   }
 }
@@ -129,7 +129,7 @@
   transform: translateY(-50%);
 
   &--sec {
-    width: 50rem;
+    width: 45rem;
   }
 }
 

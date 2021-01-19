@@ -68,6 +68,7 @@
 }
 
 .nav__map {
+  width: 100%;
   border-radius: 0.625rem;
 }
 
@@ -151,7 +152,7 @@
     background-image: url('../assets/images/nav/map1x-min.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left center;
+    background-position: center center;
     width: 100%;
     min-height: 400px;
   }

@@ -51,16 +51,18 @@
   border-top-right-radius: 4.375rem;
   border-top-left-radius: 0.3125rem;
   min-height: 21.0625rem;
-  background-image: url('../assets/images/format/1-1x-min.png'), linear-gradient(180deg, #2D63B9 22.45%, #FFFFFF 100%);
+  background-image: url('../assets/images/format/f1.png');
+  background-size: 90%;
+  background-color: white;
   background-repeat: no-repeat, no-repeat;
-  background-position: center 7.25rem, center center;
+  background-position: center 5rem, center center;
 
   &--sec {
-    background-image: url('../assets/images/format/2-1x-min.png'), linear-gradient(180deg, #2D63B9 22.45%, #FFFFFF 100%);
+    background-image: url('../assets/images/format/f2.png');
   }
 
   &--third {
-    background-image: url('../assets/images/format/3-1x-min.png'), linear-gradient(180deg, #2D63B9 22.45%, #FFFFFF 100%);
+    background-image: url('../assets/images/format/f3.png');
   }
 }
 
@@ -70,7 +72,7 @@
   line-height: 1.46;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: white;
+  color: #2D63B9;
 }
 
 .format__sub {
@@ -222,6 +224,7 @@
 
   .format__header {
     min-height: 18.75rem;
+    background-size: contain;
     background-position: center 4.25rem, center center;
   }
 }
